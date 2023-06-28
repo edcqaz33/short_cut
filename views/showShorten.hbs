@@ -1,0 +1,11 @@
+<h2 class="mx-auto d-block">Success! Please use this link!</h2>
+<a class="mx-auto d-block" id="showedURL" href={{originURL}}>{{preURL}}/{{shortenURL}}</a>
+<div>
+  <button class=" copy btn btn-outline-primary mx-auto d-block" onclick="copy()">Copy</button>
+</div>
+<script>
+  function copy() {
+    const showedURL = document.getElementById("showedURL")
+    navigator.clipboard.writeText(showedURL.innerText)
+  }
+</script>
