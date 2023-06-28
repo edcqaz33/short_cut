@@ -14,9 +14,9 @@
    ```
 
 4. 準備自己的MongoDB database，新增.env檔，輸入
-  ```
-  MONGODB_URI="你的URI字串"
-  ```
+   ```
+   MONGODB_URI="你的URI字串"
+   ```
 
 4. 安裝完畢後，輸入以下開始：
 
